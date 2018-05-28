@@ -2,6 +2,9 @@ package com.smartside;
 
 public class ItemLine
 {
+    private static final int DECIMAL_PLACES_TO_ROUND = 2;
+    private static final double BASIC_SALES_TAX_RATE = 0.1;
+
     private int quantity;
     private String name;
     private double price;
@@ -13,11 +16,16 @@ public class ItemLine
     }
 
     public double getTotal() {
-        return round(price * 1.1, 2);
+        return round(getPriceWithSalesTax());
     }
 
-    private double round(double value, int places) {
-        long factor = (long) Math.pow(10, places);
+    private double getPriceWithSalesTax()
+    {
+        return price * (1 + BASIC_SALES_TAX_RATE);
+    }
+
+    private double round(double value) {
+        long factor = (long) Math.pow(10, DECIMAL_PLACES_TO_ROUND);
         value = value * factor;
         long tmp = Math.round(value);
         return (double) tmp / factor;
