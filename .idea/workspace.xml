@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77fe239b-c139-43c5-9a49-4d39b40215bb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/smartside/ItemLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smartside/ItemLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/smartside/ReceiptTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smartside/ReceiptTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,11 +23,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReceiptTests.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ReceiptTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/smartside/ReceiptTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="464">
+              <caret line="51" column="61" lean-forward="true" selection-start-line="51" selection-start-column="61" selection-end-line="51" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ItemLine.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ItemLine.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/smartside/ItemLine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="45" lean-forward="true" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+            <state relative-caret-position="465">
+              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
               <folding>
                 <element signature="e#433#434#0" expanded="true" />
                 <element signature="e#485#486#0" expanded="true" />
@@ -97,9 +97,9 @@
         <option value="$PROJECT_DIR$/src/com/smartside/Item.java" />
         <option value="$PROJECT_DIR$/src/com/smartside/ReceiptLine.java" />
         <option value="$PROJECT_DIR$/src/com/smartside/Basket.java" />
-        <option value="$PROJECT_DIR$/src/com/smartside/ReceiptTests.java" />
         <option value="$PROJECT_DIR$/src/com/smartside/Receipt.java" />
         <option value="$PROJECT_DIR$/src/com/smartside/ItemLine.java" />
+        <option value="$PROJECT_DIR$/src/com/smartside/ReceiptTests.java" />
       </list>
     </option>
   </component>
@@ -226,14 +226,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527507789317</updated>
-      <workItem from="1527507795195" duration="4397000" />
+      <workItem from="1527507795195" duration="4672000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ReceiptTests - 2018.05.28 at 14h 35m 44s.xml">
-      <configuration name="ReceiptTests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ReceiptTests - 2018.05.28 at 14h 37m 59s.xml">
       <configuration name="ReceiptTests" configurationId="JUnit" />
     </history-entry>
@@ -261,9 +258,12 @@
     <history-entry file="ReceiptTests - 2018.05.28 at 14h 55m 33s.xml">
       <configuration name="ReceiptTests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ReceiptTests - 2018.05.28 at 14h 56m 35s.xml">
+      <configuration name="ReceiptTests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4397000" />
+    <option name="totallyTimeSpent" value="4672000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-4" width="1920" height="1084" extended-state="6" />
@@ -337,25 +337,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/smartside/ReceiptTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/smartside/ItemLine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="45" lean-forward="true" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+        <state relative-caret-position="465">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
           <folding>
             <element signature="e#433#434#0" expanded="true" />
             <element signature="e#485#486#0" expanded="true" />
             <element signature="e#588#589#0" expanded="true" />
             <element signature="e#645#646#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/smartside/ReceiptTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="51" column="61" lean-forward="true" selection-start-line="51" selection-start-column="61" selection-end-line="51" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

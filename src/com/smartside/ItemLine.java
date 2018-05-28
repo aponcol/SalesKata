@@ -21,7 +21,7 @@ public class ItemLine
 
     private double getPriceWithSalesTax()
     {
-        return price * (1 + BASIC_SALES_TAX_RATE);
+        return price * quantity * (1 + BASIC_SALES_TAX_RATE);
     }
 
     private double round(double value) {

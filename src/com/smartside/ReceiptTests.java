@@ -40,5 +40,17 @@ public class ReceiptTests
         Assert.assertEquals(20.89, receipt.getTotal(), 0.00);
     }
 
+    @Test
+    public void Two_Basic_Items_In_Basket_Total()
+    {
+        Basket basket = new Basket();
+
+        basket.addItemLine(new ItemLine(2, "music CD", 14.99));
+
+        Receipt receipt = new Receipt(basket);
+
+        Assert.assertEquals(32.98, receipt.getTotal(), 0.00);
+    }
+
 
 }
