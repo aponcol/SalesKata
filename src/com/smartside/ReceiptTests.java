@@ -44,5 +44,4 @@ public class ReceiptTests
         Assert.assertEquals(32.98, receipt.getTotal(), 0.00);
     }
 
-
 }
