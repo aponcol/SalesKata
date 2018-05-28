@@ -4,16 +4,16 @@ import java.util.ArrayList;
 
 public class Receipt
 {
-    private Basket basket;
-    private double total = 0.0;
+    public Receipt() {}
 
-    public Receipt(Basket basket) {
-        this.basket = basket;
+    private double total = 0.0;
+    private ArrayList<ItemLine> itemLines = new ArrayList<>();
+
+    public void addItemLine( ItemLine itemLine ) {
+        itemLines.add(itemLine);
     }
 
     public double getTotal() {
-
-        ArrayList<ItemLine> itemLines = basket.getItemLines();
 
         for (ItemLine itemLine : itemLines) {
             total += itemLine.getTotal();
